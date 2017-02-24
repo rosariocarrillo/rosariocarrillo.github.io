@@ -48,6 +48,7 @@ nav {
 	margin-right: 25px;
 	margin-top: 40px;
 }
+
 header nav ul {
 	list-style: none;
 	float: right;
@@ -85,31 +86,30 @@ span {color:#f26f01;}
 	text-align: center;
 }
 
-
 h1 {
 	font-family: 'Bitter', serif;
     font-weight: bold;
-	font-size: 60px;
-    line-height: 65px;
+	font-size: 65px;
+    line-height: 68px;
     color: #fefdfb;
     text-align: center;
 	background-color: rgba(0, 0, 0, 0.6);
     margin-bottom: 35px;
     margin-top: 80px;
-	padding: 10px 15px;
+	padding: 15px 15px;
     display: inline-block;
     border-radius: 4px;
-    width: 615px;
+    width: 700px;
 }
 
 .button {
     font-size: 18px;
     color: #fff;
     font-weight: bold;
-    padding: 15px;
+    padding: 20px;
     text-align: center;
     text-decoration: none;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     display: inline-block;
     background-color: #3daf2c; /* Green */    
     border: 0;
