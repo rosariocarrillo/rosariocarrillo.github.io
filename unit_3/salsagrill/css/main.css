@@ -61,6 +61,12 @@ ul li:hover a {
 .hero {
 	background-size: cover;
     background-repeat: no-repeat;
+<<<<<<< HEAD
+=======
+    background-image: url('../img/hero.jpg');
+    height: 100%;
+    background-position: center center;
+>>>>>>> origin/master
 }
 
 h1 {
@@ -72,10 +78,16 @@ h1 {
 	margin-bottom: 5px;
 	padding: 5px 15px;
     display: inline-block;
+<<<<<<< HEAD
     position: absolute;
     top: 25%;
     left: 10%;
     border-radius: 4px;
+=======
+    border-radius: 4px;
+    margin-left: 153px;
+    width: 510px;
+>>>>>>> origin/master
 }
 .button {
     font-size: 18px;
