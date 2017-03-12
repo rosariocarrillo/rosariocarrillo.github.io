@@ -1,7 +1,11 @@
-body {background-color:;}
+body {
+    background-color:;
+}
 
 
-.wrapper {background-col:yellow;}
+.wrapper {
+    background-col:yellow;
+}
 
 header {background-color: #FFED74;
 border: 1px black solid;
