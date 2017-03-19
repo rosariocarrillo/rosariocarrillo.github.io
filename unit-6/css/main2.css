@@ -18,9 +18,24 @@ body {
     margin:0 auto;
 }
 
+/*<--wrapper-->*/
+
+.wrapper {
+  width:100%;
+    margin:0 auto;
+}
+
+.hero{
+    background-image: url('../img/hero.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
 header {
 	width: 100%;
-	height: 118px;
+	height: 7.375em;
 	background-color: #000;
 }
 
@@ -28,8 +43,8 @@ header {
 	float: left;
     display: inline-block;
     position: absolute;
-    margin-top: 25px;
-    margin-left: 100px;
+    margin-top: 1.5625em;
+    margin-left: 6.25em;
 }
 
 /*<--NAV-->*/
@@ -49,12 +64,12 @@ li a {
     display: block;
     font-family: "Helvetica Neue", sans-serif;
     font-weight: bold;
-    font-size: 14px;
-    letter-spacing: 1px;
+    font-size: 0.875em;
+    letter-spacing: 0.0625em;
     color: #fefdfb;
     text-align: center;
-    padding: 14px 5px;
-    margin: 65px 25px 0 0;
+    padding: 0.875em 0.3125em;
+    margin: 4.0625em 1.5625em 0 0;
     text-decoration: none;
     float:left;
 }
@@ -63,15 +78,6 @@ li a:hover {
     color: #FFEC8B;
 }
 
-/*<--HERO-->*/
-
-.hero {
-    background-image: url('../img/hero.jpg');
-    height: 100vh;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-}
 
 .headline{
 	margin: 0 auto;
@@ -81,24 +87,39 @@ li a:hover {
 h1 {
 	font-family: 'Bitter', serif;
     font-weight: 700;
+<<<<<<< HEAD
 	font-size: 5em;
     /*line-height: 6em;*/
+=======
+	font-size: 4.0625em;
+    line-height: 4.25em;
+>>>>>>> origin/master
     color: #fefdfb;
     text-align: center;
 	background-color: rgba(0, 0, 0, 0.6);
-    margin-bottom: 35px;
-    margin-top: 80px;
-	padding: 15px 15px;
+    margin-bottom: 2.1875em;
+    margin-top: 5em;
+	padding: 0.9375em 0.9375em;
     display: inline-block;
+<<<<<<< HEAD
     border-radius: 4px;
     width: 70%;
+=======
+    border-radius: 0.25em;
+    width: 43.75em;
+>>>>>>> origin/master
 }
 
 h2 {
     font-family: 'Bitter', serif;
     font-weight: 400;
+<<<<<<< HEAD
     font-size: 2em;
     /*line-height: 4em;*/
+=======
+    font-size: 1.875em;
+    line-height: 1.875em;
+>>>>>>> origin/master
     color: #fefdfb;
     text-align: center;
     display: block;
@@ -107,36 +128,59 @@ h2 {
 h3 {
     font-family: 'Bitter', serif;
     font-weight: 400;
+<<<<<<< HEAD
     font-size: 170.00%;
     line-height: 36px;
+=======
+    font-size: 1.5em;
+    line-height: 2.25em;
+>>>>>>> origin/master
     color: #fefdfb;
     text-align: center;
     display: block;
-    margin-top: 9px;
+    margin-top: 0.5625em;
 }
 
 .button {
-    font-size: 18px;
+    font-size: 1.125em;
     color: #fefdfb;
     font-weight: bold;
-    padding: 20px;
+    padding: 1.25em;
     text-align: center;
     text-decoration: none;
     background-color: #76bd22; /* GREEN */    
     border: 0;
+<<<<<<< HEAD
     border-radius: 4px;
     margin-bottom: 30px;
     width: 20%;
     letter-spacing: 2px;
+=======
+    border-radius: 0.25em;
+    margin-bottom: 1.875em; 
+>>>>>>> origin/master
 }
 
 /*<--columns-->*/
 
+<<<<<<< HEAD
 .box {
   width: 31.3%; /* 320 / 1280 */ 
   height:auto;
   padding: 0 0 20px 0;
   margin: 0 10px;
+=======
+#container {
+  width:  82.25806451612904%;
+  margin: 0 auto;
+}
+
+.article {
+  width: 33.203125%;
+  height: 25em;
+  padding: 0;
+  margin: 0 0.625em;
+>>>>>>> origin/master
   float: left;
   background-color: #000;
 }
@@ -144,7 +188,12 @@ h3 {
 .boxp {
     color: #fefdfb;
     text-align: center;
+<<<<<<< HEAD
     letter-spacing: 2px;   
+=======
+    letter-spacing: 0.125em;
+    
+>>>>>>> origin/master
 }
 
 .boxwrapper{
@@ -153,9 +202,9 @@ h3 {
 }
 
 .content-wrapper{
-    width: 100%;
+    width: 100%
     margin: 0 auto;
-    padding: 10px 0;
+    padding: 0.625em 0;
     clear: both;
 }
 
@@ -163,10 +212,16 @@ h3 {
     background-color:#fefdfb;
     opacity: 0.5;
     filter: alpha(opacity=50); /* For IE8 and earlier */
+<<<<<<< HEAD
     width: 62.500em;
     margin: 1.25em auto;
     padding: 20px;
     position: relative;
+=======
+    width: 62.5em;
+    margin: 0.625em auto;
+    padding-top: 1.25em;
+>>>>>>> origin/master
 }
 
 #article5 {
@@ -175,7 +230,11 @@ h3 {
     background-repeat: no-repeat;
     margin: 1.25em auto;
     background-position: center;
+<<<<<<< HEAD
     position: relative;
+=======
+    position: relative
+>>>>>>> origin/master
 }
 
 #article5 h2 {
@@ -194,7 +253,21 @@ h3 {
     background-repeat: no-repeat;
     margin: 1.25em auto;
     background-position: center;
+<<<<<<< HEAD
     position: relative;
+=======
+    position: relative
+}
+
+#article6 h2 {
+    background: rgba(0, 0, 0, 0.2);
+    width: 40%;
+    padding: 1.25em;
+    position: absolute;
+    top: 5em;
+    left: 0;
+    right: 0;
+>>>>>>> origin/master
 }
 
 #article6 h2 {
@@ -218,16 +291,24 @@ img2 {
 
 .screen {background-color: rgba(0, 0, 0, 0.6);
     display:block;
-    width: 300px;
-    height: 300px;
+    width: 18.75em;
+    height: 18.75em;
 }
 
 .four {
+<<<<<<< HEAD
 font-size: 16px;
 line-height: 18px;
 text-align: center;
 width:auto;
 padding:5px;
+=======
+    font-size: 1em;
+    line-height: 1.125em;
+    text-align: center;
+    width: 56.25em;
+    padding:0.3125em 0.625em 1.25em;
+>>>>>>> origin/master
 }
 
 
@@ -235,16 +316,16 @@ padding:5px;
 footer {
     display: block;
     font-family: "Helvetica Neue", sans-serif;
-    font-size: 16px;
-    line-height: 19px;
-    letter-spacing: 1px;
+    font-size: 1em;
+    line-height: 1.1875em;
+    letter-spacing: 0.0625em;
     color: #fefdfb;
     text-align: left;
     width: 100%;
-    height: 170px;
+    height: 10.625em;
     background-color: #000;    
-    padding: 30px;
-    margin: 0px 10px 0 0;
+    padding: 1.875em;
+    margin: 0px 0.625em 0 0;
     text-decoration: none;
     
 }
@@ -252,9 +333,9 @@ footer {
 footer p {
     display: block;
     font-family: "Helvetica Neue", sans-serif;
-    font-size: 16px;
-    line-height: 19px;
-    letter-spacing: 1px;
+    font-size: 1em;
+    line-height: 1.1875em;
+    letter-spacing: 0.0625em;
     color: #fefdfb;
     text-align: left;
     width: 50%;
@@ -271,12 +352,12 @@ li a {
     display: block;
     font-family: "Helvetica Neue", sans-serif;
     font-weight: bold;
-    font-size: 14px;
-    letter-spacing: 1px;
+    font-size: 0.875em;
+    letter-spacing: 0.0625em;
     color: #fefdfb;
     text-align: center;
-    padding: 14px 5px;
-    margin: 65px 25px 0 0;
+    padding: 0.875em 0.3125em;
+    margin: 4.0625em 1.5625em 0 0;
     text-decoration: none;
     float:left;
 }
@@ -288,35 +369,35 @@ li a:hover {
 span {color:#f26f01;}
 
 .rust {
-font-family: 'Bitter', serif;
-font-weight: 400;
-font-size: 30px;
-line-height: 30px;
-text-align: center;
-display: block;
-color: #d31145;   
+    font-family: 'Bitter', serif;
+    font-weight: 400;
+    font-size: 1.875em;
+    line-height: 1.875em;
+    text-align: center;
+    display: block;
+    color: #d31145;   
 }
 
 .space {
-      margin-bottom: 10px;
+      margin-bottom: 0.625em;
 }
 
 /*<--CLEARFIX-->*/
 
 .clearfix:after {
-visibility: hidden;
-display: block;
-font-size: 0;
-content: " ";
-clear: both;
-height: 0;
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
 }
 
 
 .bottom-nav {
     float: right;
     display: inline-block;
-    padding-right: 300px;
+    padding-right: 18.75em;
 }
 
 .bottom-nav a {
