@@ -88,10 +88,10 @@ h1 {
 	background-color: rgba(0, 0, 0, 0.6);
     margin-bottom: 35px;
     margin-top: 80px;
-	padding: 15px 15px;
+	padding: 10px 0px 20px 0px;
     display: inline-block;
     border-radius: 4px;
-    width: 70%;
+    width: 45%;
 }
 
 
@@ -109,26 +109,26 @@ h3 {
     font-family: 'Bitter', serif;
     font-weight: 400;
     font-size: 170.00%;
-    line-height: 2.25em;
+    line-height: 170.00%;
     color: #fefdfb;
     text-align: center;
     display: block;
-    margin-top: 0.5625em;
+    margin-top: 5px;
 }
 
 .button {
-    font-size: 1.125em;
+    font-size: 25px;
     color: #fefdfb;
     font-weight: bold;
-    padding: 1.25em;
+    padding: 15px;
     text-align: center;
     text-decoration: none;
     background-color: #76bd22; /* GREEN */    
     border: 0;
     border-radius: 0.25em;
     margin-bottom: 1.875em;
-    width: 20%;
-    letter-spacing:0.125em;
+    width: 16%;
+    letter-spacing:0.0625em;
 }
 
 /*<--columns-->*/
@@ -212,9 +212,11 @@ img {
   display: block;
 }
 
-img2 {
+.boximg {
   margin:0;
   display: block;
+  width:100%;
+
 }
 
 .screen {background-color: rgba(0, 0, 0, 0.6);
