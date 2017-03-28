@@ -11,7 +11,6 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center bottom;
-    
 }
 .wrapper {
     width:100%;
@@ -35,36 +34,32 @@ header {
 
 /*<--NAV-->*/
 
-nav ul {
-	list-style-type: none;
-    padding: 0;
+.topnav{
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
     overflow: hidden;
-    margin-left:33%;
-
+    padding-top: 3.4em;
 }
 
-nav li {
-	display: inline-block;
-	vertical-align: top;
+.topnav li{
+    display:inline;
+    vertical-align: top;
+    margin-top: 4.0625em;
+}
+.topnav a{
+    display:inline-block;
+    padding:.5em;
+    text-decoration: none;
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 1em;
+    letter-spacing: 0.0725em;
+    color: #fefdfb;
 }
 
-nav li a {
-	display: block;
-	font-family: "Helvetica Neue", sans-serif;
-	font-weight: bold;
-	font-size: 0.875em;
-	letter-spacing: 0.0625em;
-	color: #fefdfb;
-	text-align: left;   
-    padding-right: 1.5em;
-	padding-top: 0.875em; 
-	margin-top: 4.0625em;
-	text-decoration: none;
-}
-
-nav li a:hover {
+.topnav li a:hover {
 	color: #FFEC8B;
-
 }
 
 /*<--HERO-->*/
@@ -138,12 +133,12 @@ h3 {
 /*<--columns-->*/
 
 .box {
-  width: 31.3%; 
-  height:auto;
-  padding: 0 0 1.25em 0;
-  margin: 0 0.625em;
-  float: left;
-  background-color: #000;
+    width: 32%;
+    height: auto;
+    padding: 0 0 1.25em 0;
+    margin: 0 0.47em 0;
+    float: left;
+    background-color: #000;
 }
 
 .boxp {
@@ -153,10 +148,13 @@ h3 {
 }
 
 .boxwrapper{
-    width: 68%;
+    width: 67%;
     margin:auto;
 }
 
+.img2 {
+    width:100%;
+}
 .content-wrapper{
     width: 100%;
     margin: 0 auto;
@@ -168,19 +166,21 @@ h3 {
     background-color:#fefdfb;
     opacity: 0.5;
     filter: alpha(opacity=50); /* For IE8 and earlier */
-    width: 62.500em;
-    margin: 1.25em auto;
+    width: 66%;
+    margin: 1em auto;
     padding: 1.25em;
     position: relative;
 }
 
 #article5 {
-    background-image: url('../img/1000x300.jpg');
+    background-image: url(../img/1000x300.jpg);
     height: 18.75em;
     background-repeat: no-repeat;
     margin: 1em auto;
     background-position: center;
     position: relative;
+    width: 66%;
+    background-size: cover;
 }
 
 #article5 h2 {
@@ -194,12 +194,14 @@ h3 {
 }
 
 #article6 {
-    background-image: url('../img/1000x300.jpg');
+    background-image: url(../img/1000x300.jpg);
     height: 18.75em;
     background-repeat: no-repeat;
     margin: 1em auto;
     background-position: center;
     position: relative;
+    width: 66%;
+    background-size: cover;
 }
 
 #article6 h2 {
@@ -267,52 +269,34 @@ footer p {
     float: left;
 }
 
-.footer-ul {
+.footernav {
+    overflow:hidden;
+}
+
+.footernav li a {
     list-style-type: none;
-    padding: 0;
-    overflow: hidden;  
-}
-
-.footer-nav {
-    float: left;
-    display: inline-block;
-    
-}
-
-.footer-nav a {
-    text-align: left;
     margin: 0;
     padding: 0;
-}
-
-footer li a {
+    color: #fff;
     display: block;
-    font-family: "Helvetica Neue", sans-serif;
-    font-weight: bold;
-    font-size: 0.875em;
-    letter-spacing: 0.0625em;
-    color: #fefdfb;
-    text-align: center;
-    padding:  0.875em 0.9375em;
-    margin: 4.0625em 1.5625em 0 0;
+    padding: 0 0 .3em 0;
     text-decoration: none;
-    float:left;
 }
 
-li a:hover {
-    color: #FFEC8B;
+.footer li a:hover {
+    color: #ffec8b;
 }
 
 span {color:#f26f01;}
 
 .rust {
-font-family: 'Bitter', serif;
-font-weight: 400;
-font-size: 1.875em;
-line-height: 1.875em;
-text-align: center;
-display: block;
-color: #d31145;   
+    font-family: 'Bitter', serif;
+    font-weight: 400;
+    font-size: 1.875em;
+    line-height: 1.875em;
+    text-align: center;
+    display: block;
+    color: #d31145;   
 }
 
 .space {
@@ -333,9 +317,8 @@ height: 0;
 
 /*mediaqueries--->*/
 
-
-
-@media only screen and (min-device-width : 1600px) {
+@media only screen and (max-width: 1600px) {
+    
     body {
         font-family: "Helvetica Neue", sans-serif;
         font-size: 1em;
@@ -357,99 +340,34 @@ height: 0;
         border:0;
    }
     
-    footer nav {
-        display: inline-block;
-    }
-
-    footer p {
-        display: block;
-        font-family: "Helvetica Neue", sans-serif;
-        font-size: 1em;
-        line-height: 1.1875em;
-        letter-spacing: 0.0625em;
-        color: #fefdfb;
-        text-align: left;
-        width: 40%;
-        float: left;
-        padding-right: 2em;
-  }
-    
 }
 
+@media only screen and (max-width: 1346px) {
 
-@media only screen and (min-device-width : 1346px) {
 body {
         font-family: "Helvetica Neue", sans-serif;
         font-size: 1em;
       }
     
-     h1 {
-    font-family: 'Bitter', serif;
-    font-weight: 700;
-    font-size: 4.75em;
-    color: #fefdfb;
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.6);
-    margin-bottom: .40em;
-    margin-top: .95em;
-    padding: .1em 0 .2em 0;
-    display: inline-block;
-    border-radius: 0.100em;
-    /*width: 95%;*/
-    border:0;
+    h1 {
+        font-family: 'Bitter', serif;
+        font-weight: 700;
+        font-size: 4.75em;
+        color: #fefdfb;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.6);
+        margin-bottom: .40em;
+        margin-top: .95em;
+        padding: .1em 0 .2em 0;
+        display: inline-block;
+        border-radius: 0.100em;
+        /*width: 95%;*/
+        border:0;
  }
-
-    footer p {
-        display: block;
-        font-family: "Helvetica Neue", sans-serif;
-        font-size: 1em;
-        line-height: 1.1875em;
-        letter-spacing: 0.0625em;
-        color: #fefdfb;
-        text-align: left;
-        width: 40%;
-        float: left;
-        padding-right: 2em;
-      }
-
-
-    footer nav a {
-        text-align: left;
-        margin: 0;
-        padding: 0;
-        font-family: "Helvetica Neue", sans-serif;
-        font-size: 1em;
-        line-height: 1.1875em;
-        letter-spacing: 0.0625em;
-        color: #fefdfb;
-        text-align: left;
-        text-decoration: none;
-    }
-
-    footer ul {
-        list-style-type: none;
-        padding: 0;
-        margin:0;
-        overflow: hidden;
-        width:40%;
-
-    }
-
-    footer li a {
-        display: block;
-        font-family: "Helvetica Neue", sans-serif;
-        font-weight: bold;
-        font-size: 0.875em;
-        letter-spacing: 0.0625em;
-        color: #fefdfb;
-        text-align: left;
-        text-decoration: none;
-        float:left;
-     }
     
 }
 
-@media only screen and (min-device-width : 1024px) {
+@media only screen and (max-width: 1024px) {
 
 
 .logo {
@@ -457,7 +375,7 @@ body {
     display: inline-block;
     position: absolute;
     margin-top: 1.5625em;
-    /*margin-left: 2.25em;*/
+    margin-left: 1.25em;
 }
 
 /*<--NAV-->*/
