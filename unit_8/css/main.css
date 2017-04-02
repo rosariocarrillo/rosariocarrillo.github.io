@@ -67,10 +67,10 @@ header {
 
 .hero {
     background-image: url('../img/hero.jpg');
-    height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+    height: 1036px;
 }
 
 .headline{
@@ -134,16 +134,12 @@ h3 {
 /*<--columns-->*/
 
 .boxwrapper{
-    width: 66%;
-    margin:auto;
+    text-align: center;
 }
 
 .box {
-    width: 31.3333333%;
-    height: auto;
-    padding: 0 0 1.25em 0;
-    margin: 1%;
-    float: left;
+    width: 32%;
+    display: inline-block;
     background-color: #000;
 }
 
@@ -335,16 +331,36 @@ span {color:#f26f01;}
 
 /*<--mediaqueries--->*/
 
-@media only screen and (max-width: 1593px) {
+@media only screen and (max-width: 1800px) {
     h1 {
         width: 65%;
         margin-top: .80em;
     } 
+
+    .boxwrapper{
+    width: 72%;
+    margin:auto;
+  }
+
+    .content-wrapper{
+        width: 70%;
+    }
+
+    #article4{
+        width: 100%;
+    }
+
+    #article5 {
+        width: 100%;
+    }
+    #article6 {
+        width: 100%;
+    }
  }
 
-@media only screen and (max-width: 1500px) {
+ @media only screen and (max-width: 1700px) {
     .logo {
-    margin-left: 3.25em;
+    margin-left: 6.25em;
     }
 
     h1 {
@@ -352,91 +368,95 @@ span {color:#f26f01;}
         margin-top: .80em;
     }
 
-    .box {
-        width: 48%;
-    }
+    .boxwrapper{
+        width: 80.1%;
+        margin:auto;
+   }
 
-    .box2 {
-        width: 48%;
-        height: auto;
-        padding: 3em;
-        margin: 1%;
-        float: left;
-        background-color:#fefdfb;
-        opacity: 0.5;
-        filter: alpha(opacity=50); /* For IE8 and earlier */
-        display:block;
-    }
-
-    .boxp2 {
-        color: #000;
-        text-align: center;
-        letter-spacing: 0.125em;
-        padding: 0; 
-        display:block;
-        opacity: 1;  
-     }
-
-    h2 {
-        font-size: 1.9em;
-    }
-
-
-    .img3 {
-        width:90%;
-        background-color: #fff;
-        margin-top: 1.18em;
-        display:block;
-        opacity: 1;
-     }
-
-    #article4 {
-        display:none;
-  }
   
+
+    .content-wrapper{
+        width: 78%;
+    }
+
+    #article4{
+        width: 100%;
+    }
+
+    #article5 {
+        width: 100%;
+    }
+    #article6 {
+        width: 100%;
+    }
+}
+
+ @media only screen and (max-width: 1600px) {
+    .logo {
+    margin-left: 6.25em;
+    }
+
+    h1 {
+        width: 64.5%;
+        margin-top: .80em;
+    }
+
+    .boxwrapper{
+        width: 80.1%;
+        margin:auto;
+   }
+
+
+
+    .content-wrapper{
+        width: 78%;
+    }
+
+    #article4{
+        width: 100%;
+    }
+
+    #article5 {
+        width: 100%;
+    }
+    #article6 {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 1500px) {
+    .logo {
+    margin-left: 6.25em;
+    }
+
+    h1 {
+        width: 64.5%;
+        margin-top: .80em;
+    }
+
+    .boxwrapper{
+        width: 87%;
+        margin:auto;
+   }
+
+
+    .content-wrapper{
+        width: 84.5%;
+    }
+
+    #article4{
+        width: 100%;
+    }
+
+    #article5 {
+        width: 100%;
+    }
+    #article6 {
+        width: 100%;
+    }
 }
 
 @media only screen and (max-width: 1437px) {
 
-    .box2 {
-        padding: 2.6em;
-    }
+ 
 }
-
-@media only screen and (max-width: 1368px) {
-
-    .box2 {
-        padding: 2.1em;
-    }
-}
-
-@media only screen and (max-width: 1299px) {
-
-    .box2 {
-        padding: 1.5em;
-    }
-}
-
-@media only screen and (max-width: 1251px) {
-
-    .box2 {
-        padding: 1.1em;
-    }
-}
-
-@media only screen and (max-width: 1240px) {
-    .box2 {
-        width: 48%;
-        height: auto;
-        padding: 1em;
-        margin: 1%;
-        float: left;
-        background-color:#fefdfb;
-        opacity: 0.5;
-        filter: alpha(opacity=50); /* For IE8 and earlier */
-        display:block;
-    }
-
-}
-
 
