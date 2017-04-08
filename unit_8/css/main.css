@@ -18,7 +18,7 @@ body {
 }
 
 header {
-	width: 100%;
+	width: 75em%;
 	height: 6.274em;
 	background-color: #000;
 }
@@ -108,7 +108,7 @@ h2 {
 h3 {
     font-family: 'Bitter', serif;
     font-weight: 400;
-    font-size: 170.00%;
+    font-size: 1.5em;
     line-height: 170.00%;
     color: #fefdfb;
     text-align: center;
@@ -135,6 +135,7 @@ h3 {
 
 .boxwrapper{
     text-align: center;
+    width: 68%;
 }
 
 .box {
@@ -150,7 +151,8 @@ h3 {
 .boxp {
     color: #fefdfb;
     text-align: center;
-    letter-spacing: 0.125em;   
+    letter-spacing: 0.1em; 
+    padding-bottom: 1em;  
 }
 
 .content-wrapper{
@@ -162,8 +164,8 @@ h3 {
 
 #article4 {
     background-color:#fefdfb;
-    opacity: 0.5;
-    filter: alpha(opacity=50); /* For IE8 and earlier */
+    opacity: 0.8;
+    filter: alpha(opacity=80); /* For IE8 and earlier */
     width: 66%;
     margin: .5em auto;
     padding: 1.25em;
@@ -313,150 +315,25 @@ span {color:#f26f01;}
     height: 0;
 }
 
-.box2x {
-    display: none;
-}
-
-.img3 {
-    display: none;
-}
-
-.box2 {
-    display:none;
-    }
-
-.boxp2 {
-     display:none;    
-     }
 
 /*<--mediaqueries--->*/
 
-@media only screen and (max-width: 1800px) {
-    h1 {
-        width: 65%;
-        margin-top: .80em;
-    } 
+@media only screen and (max-width: 1300px) {
 
-    .boxwrapper{
-    width: 72%;
-    margin:auto;
+    .boxp {
+    font-size: .9em; 
+    }
+
+}
+
+@media only screen and (max-width: 1220px) {
+   
+.logo {
+    margin-left: 3.25em;
+}
+
+@media only screen and (max-width: 1200px) {
+    .topnav a{
+    font-size: .9em;
   }
-
-    .content-wrapper{
-        width: 70%;
-    }
-
-    #article4{
-        width: 100%;
-    }
-
-    #article5 {
-        width: 100%;
-    }
-    #article6 {
-        width: 100%;
-    }
- }
-
- @media only screen and (max-width: 1700px) {
-    .logo {
-    margin-left: 6.25em;
-    }
-
-    h1 {
-        width: 64.5%;
-        margin-top: .80em;
-    }
-
-    .boxwrapper{
-        width: 80.1%;
-        margin:auto;
-   }
-
-  
-
-    .content-wrapper{
-        width: 78%;
-    }
-
-    #article4{
-        width: 100%;
-    }
-
-    #article5 {
-        width: 100%;
-    }
-    #article6 {
-        width: 100%;
-    }
-}
-
- @media only screen and (max-width: 1600px) {
-    .logo {
-    margin-left: 6.25em;
-    }
-
-    h1 {
-        width: 64.5%;
-        margin-top: .80em;
-    }
-
-    .boxwrapper{
-        width: 80.1%;
-        margin:auto;
-   }
-
-
-
-    .content-wrapper{
-        width: 78%;
-    }
-
-    #article4{
-        width: 100%;
-    }
-
-    #article5 {
-        width: 100%;
-    }
-    #article6 {
-        width: 100%;
-    }
-}
-@media only screen and (max-width: 1500px) {
-    .logo {
-    margin-left: 6.25em;
-    }
-
-    h1 {
-        width: 64.5%;
-        margin-top: .80em;
-    }
-
-    .boxwrapper{
-        width: 87%;
-        margin:auto;
-   }
-
-
-    .content-wrapper{
-        width: 84.5%;
-    }
-
-    #article4{
-        width: 100%;
-    }
-
-    #article5 {
-        width: 100%;
-    }
-    #article6 {
-        width: 100%;
-    }
-}
-
-@media only screen and (max-width: 1437px) {
-
- 
-}
-
+}    
