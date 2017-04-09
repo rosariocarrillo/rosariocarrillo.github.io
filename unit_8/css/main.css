@@ -160,7 +160,7 @@ h3 {
 .content-wrapper{
     width: 100%;
     margin: 0 auto;
-       padding: 0.10em 0;
+    padding: 0.10em 0;
     clear: both;
 }
 
@@ -413,9 +413,6 @@ span {color:#f26f01;}
     .topnav a{
         font-size: .95em;
     }
-    footer {
-        font-size: .95em;   
-    }
     #article4 {
         width: 73.4%;
     }
@@ -507,27 +504,113 @@ span {color:#f26f01;}
     }
 }
 
+@media only screen and (max-width: 1160px) { 
+    h1 {
+        width: 90%;
+    }
 
-@media only screen and (max-width:988px) { 
+    .boxwrapper{
+        width: 90%;
+    }
+    #article4 {
+        width: 90%;
+    }
+    #article5 {
+        width: 90%;
+    }
+    #article6 {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 988px) { 
     h1 {
         width: 98%;
     }
-
-    .box { display: block; width: 98%; margin-bottom: 8px; }
 
     .boxwrapper{
         width: 98%;
     }
     #article4 {
-        width: 95%;
+        width: 98%;
     }
     #article5 {
-        width: 95%;
+        width: 98%;
     }
     #article6 {
-        width: 95%;
+        width: 98%;
     }
 }
 
+@media only screen and (max-width: 909px) { 
+    h1 {
+        width: 98%;
+    }
 
+   .boxwrapper{
+        width: 99%;
+    }
+   
+}
+
+@media only screen and (max-width:900px) { 
+    h1 {
+        width: 99%;
+    }
+    .boxp {
+        font-size:.9em;
+    }
+    .topnav a{
+    font-size: .8em;
+    }
+   footer p {
+        font-size:.8em;
+    } 
+    .footernav{
+        font-size:.8em;
+    }
+    .boxwrapper{
+        width: 100%;
+    }
+    #article4 {
+        width: 99%;
+    }
+    #article5 {
+        width: 99%;
+    }
+    #article6 {
+        width: 99%;
+    }
+}
+
+@media only screen and (max-width:822px) { 
+    h1 {
+        width: 90%;
+    }
+
+    h3 {
+    font-size: 1.5em;
+    }
+
+    .box { /*display: block;*/ width: 90%; margin-bottom: 8px; }
+
+    .boxwrapper{
+        width: 100%;
+    }
+    #article4 {
+        width: 89%;
+    }
+    #article5 {
+        width: 89%;
+    }
+    #article6 {
+        width: 89%;
+    }
+}
+
+@media only screen and (max-width:414px) { 
+    h1 {
+        font-size:3em;
+    }
+}
 
