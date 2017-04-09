@@ -143,6 +143,7 @@ h3 {
     display: inline-block;
     background-color: #000;
     margin: .2em;
+    vertical-align:top;
 }
 
 .img2 {
@@ -488,8 +489,45 @@ span {color:#f26f01;}
     
 }
 @media only screen and (max-width: 1160px) { 
+    h1 {
+        width: 90%;
+    }
+
     .boxwrapper{
-        width: 100%;
+        width: 90%;
     }
+    #article4 {
+        width: 90%;
     }
+    #article5 {
+        width: 90%;
+    }
+    #article6 {
+        width: 90%;
+    }
+}
+
+
+@media only screen and (max-width:909px) { 
+    h1 {
+        width: 98%;
+    }
+
+    .box { display: block; width: 98%; margin-bottom: 8px; }
+
+    .boxwrapper{
+        width: 98%;
+    }
+    #article4 {
+        width: 95%;
+    }
+    #article5 {
+        width: 95%;
+    }
+    #article6 {
+        width: 95%;
+    }
+}
+
+
 
