@@ -90,7 +90,7 @@ h1 {
 	padding: .1em 0 .2em 0;
     display: inline-block;
     border-radius: 0.100em;
-    width: 66%;
+    width: 67.3%;
     border:0;
 }
 
@@ -142,6 +142,7 @@ h3 {
     width: 32%;
     display: inline-block;
     background-color: #000;
+    margin: .2em;
 }
 
 .img2 {
@@ -166,7 +167,7 @@ h3 {
     background-color:#fefdfb;
     opacity: 0.8;
     filter: alpha(opacity=80); /* For IE8 and earlier */
-    width: 66%;
+    width: 67%;
     margin: .5em auto;
     padding: 1.25em;
     position: relative;
@@ -179,7 +180,7 @@ h3 {
     margin: 1em auto;
     background-position: center;
     position: relative;
-    width: 66%;
+    width: 67%;
     background-size: cover;
 }
 
@@ -200,7 +201,7 @@ h3 {
     margin: 1em auto;
     background-position: center;
     position: relative;
-    width: 66%;
+    width: 67%;
     background-size: cover;
 }
 
@@ -318,22 +319,111 @@ span {color:#f26f01;}
 
 /*<--mediaqueries--->*/
 
-@media only screen and (max-width: 1300px) {
-
-    .boxp {
-    font-size: .9em; 
+  
+@media only screen and (max-width:1523px) {
+    h1 {
+    font-size: 4.8sem;
+    width: 67%;
     }
 
+@media only screen and (max-width: 1304px) {  
+    
+    .boxwrapper{
+        width: 69%;
+    }
+    #article4 {
+        width: 68.4%;
+    }
+    #article5 {
+        width: 68.4%;
+    }
+    #article6 {
+        width: 68.4%;
+    }
+    
 }
 
-@media only screen and (max-width: 1220px) {
-   
-.logo {
+@media only screen and (max-width: 1285px) {  
+    
+    .boxwrapper{
+        width: 70%;
+    }
+    #article4 {
+        width: 69%;
+    }
+    #article5 {
+        width: 69%;
+    }
+    #article6 {
+        width: 69%;
+    }
+    
+}
+
+@media only screen and (max-width: 1267px) {  
+    .logo {
     margin-left: 3.25em;
+    }
+
+    h1 {
+        width: 71%;
+    }
+
+    .boxwrapper{
+        width: 71.9%;
+    }
+    #article4 {
+        width: 71%;
+    }
+    #article5 {
+        width: 71%;
+    }
+    #article6 {
+        width: 71%;
+    }
+    
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1233px) {  
+    h1 {
+        width: 72%;
+    }
+    .boxwrapper{
+        width: 73%;
+    }
+    #article4 {
+        width: 72%;
+    }
+    #article5 {
+        width: 72%;
+    }
+    #article6 {
+        width: 72%;
+    }
+    
+}
+
+@media only screen and (max-width: 1216px) {  
+    .boxwrapper{
+    width: 74.03%;
+    }
     .topnav a{
-    font-size: .9em;
-  }
-}    
+    font-size: .95em;
+    }
+    footer {
+    font-size: .95em;   
+    }
+    #article4 {
+        width: 73.4%;
+    }
+    #article5 {
+        width: 73.4%;
+    }
+    #article6 {
+        width: 73.4%;
+    }
+    
+
+}
+
+
