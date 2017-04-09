@@ -340,7 +340,9 @@ span {color:#f26f01;}
     #article6 {
         width: 68.4%;
     }
-    
+    .boxp {
+        letter-spacing: 0.06em;
+    }
 }
 
 @media only screen and (max-width: 1285px) {  
@@ -405,13 +407,13 @@ span {color:#f26f01;}
 
 @media only screen and (max-width: 1216px) {  
     .boxwrapper{
-    width: 74.03%;
+        width: 74.03%;
     }
     .topnav a{
-    font-size: .95em;
+        font-size: .95em;
     }
     footer {
-    font-size: .95em;   
+        font-size: .95em;   
     }
     #article4 {
         width: 73.4%;
@@ -422,8 +424,72 @@ span {color:#f26f01;}
     #article6 {
         width: 73.4%;
     }
-    
-
 }
 
+@media only screen and (max-width: 1197px) { 
+
+    h1 {
+        width: 74%;
+    }
+    .boxwrapper{
+        width: 75%;
+    }
+    #article4 {
+        width: 74%;
+    }
+    #article5 {
+        width: 74%;
+    }
+    #article6 {
+        width: 74%;
+    }
+    
+}
+@media only screen and (max-width: 1183px) { 
+
+    h1 {
+        width: 74%;
+    }
+    .boxwrapper{
+        width: 76%;
+    }
+    #article4 {
+        width: 75%;
+    }
+    #article5 {
+        width: 75%;
+    }
+    #article6 {
+        width: 75%;
+    }
+    
+}
+
+@media only screen and (max-width: 1168px) { 
+
+    h1 {
+        width: 76%;
+    }
+    .boxwrapper{
+        width: 76.5%;
+    }
+    #article4 {
+        width: 76%;
+    }
+    #article5 {
+        width: 76%;
+    }
+    #article6 {
+        width: 76%;
+    }
+    .topnav a{
+    font-size: .9em;
+    }
+    
+}
+@media only screen and (max-width: 1160px) { 
+    .boxwrapper{
+        width: 100%;
+    }
+    }
 
