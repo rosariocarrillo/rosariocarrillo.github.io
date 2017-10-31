@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+
+  margin: 0;
+
+  padding: 0;
+
+}
+#topnav {
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:1016px;
+	height:59px;
+	z-index:20;
+	right: 0px;
+	background-position: left;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+	background-image: url(/globalImages/lightblue.png);
+	display: block;
+	float: left;
+	overflow: visible;
+	visibility: visible;
+}
+
+#navbuttons {
+	position:absolute;
+	left:0px;
+	top:59px;
+	width:1016px;
+	height:31px;
+	z-index:20;
+	background-image: url(/globalImages/greygreen.png);
+	background-repeat: repeat;
+	margin-right: 0px;
+	margin-left: 0px;
+	right: 0px;
+	display: block;
+	visibility: visible;
+}
+
+
+#apDiv2 {
+	position:absolute;
+	width:177px;
+	height:15px;
+	z-index:20;
+	left: 8px;
+	top: 206px;
+	font: normal 9px/10px Arial, Helvetica, sans-serif;
+	color: #4a4b4b;
+	visibility: visible;
+	background: url(/globalImages/rule2.gif) no-repeat center top;
+	padding-top: 12px;
+}
+-->
